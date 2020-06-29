@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#one h1 {
+    font-weight: 300;
+    font-size: 80px;
+}
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+}
+#one {
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+#two {
+    height: 100%;
+    width: 60%;
+    background-color: #00b894;
+}
+#three {
+    width: 40%;
+    height: 65%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: #078067;
+    background-image: url('lol.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#content {
+    width: 40%;
+    height: 80%;
+    /* background-color: brown; */
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+}
+#content h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+#content p {
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 10px;
+}
+#content button {
+    border-color: white;
+}
+#nav {
+    height: 100px;
+    width: 40%;
+    position: absolute;
+    /* background-color:black ; */
+    margin-left: 200px;
+    margin-top: 25px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 20px;
+    font-weight: 700;
+    color: blanchedalmond;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+}
+#container2 {
+     height: 100%; 
+     width: 100%; 
+     /* background-color: tomato;   */
+}
+#section {
+    height: 60%;
+    width: 90%;
+    /* background-color: orchid; */
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box {
+    width: 30%;
+    height: 90%;
+    background-color: #07745e;
+}
+#img1 {
+    background-image: url(lol2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#img3 {
+    background-image: url(https://ydbrand.imgix.net/YD/Products/17DLSD01_RED_CROP.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#img2 {
+    background-size: contain;
+    background-image: url( http://pngriver.com/wp-content/uploads/2017/11/jents-Dress-Shirts-free-PNG-transparent-background-images-free-download-clipart-pics-general_shirts-474x1024.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.details {
+    margin-top: 10px;
+    height: 50px;
+    width: 30%;
+    /* background-color: purple; */
+    text-align: center;
+}
+#conatiner3 {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+#aboutUS {
+    height: 50%;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: royalblue; */
+}
+#contact {
+    height: 50%;
+    width: 100%;
+    background-color: tan;
+}
+#aboutUS h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(104, 92, 92);
+    text-align: center;
+    padding: 20px;
+}
+#aboutUS p {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(92, 85, 85);
+}
+img {
+    height: 80px;
+    width: 80px;
+}
+#contact h1 {
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 30px;
+}
+h2 {
+    padding: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+a {
+    color: white;
+}
